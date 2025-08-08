@@ -1,0 +1,7 @@
+# Google Gemini API 키
+# Google AI Studio에서 발급받은 API 키를 입력하세요
+GOOGLE_API_KEY=your-google-api-key-here
+
+# 기타 환경 변수 (필요시 추가)
+# DATABASE_URL=your-database-url
+# LOG_LEVEL=INFO 
