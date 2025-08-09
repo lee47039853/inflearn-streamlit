@@ -309,8 +309,7 @@ inflearn-streamlit/
 │   ├── enhanced_rag.py        # 향상된 RAG 시스템
 │   ├── database_manager.py    # 데이터베이스 관리
 │   ├── embedding_manager.py   # 임베딩 모델 관리
-│   ├── conversation_history.py # 대화 히스토리 관리
-│   └── command_processor.py   # 명령어 처리
+│   └── conversation_history.py # 대화 히스토리 관리
 ├── 📄 tax.docx                # 소득세 관련 문서
 ├── 💾 chroma_1/               # 한국어 임베딩 DB (자동 생성)
 └── 💾 chroma_2/               # Google Gemini 임베딩 DB (자동 생성)

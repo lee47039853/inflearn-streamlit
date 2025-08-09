@@ -7,7 +7,6 @@ from .embedding_manager import EmbeddingManager
 from .database_manager import DatabaseManager
 from .enhanced_rag import EnhancedRAGSystem
 from .conversation_history import ConversationHistory
-from .command_processor import CommandProcessor
 from .rag_manager import RAGManager
 from .shared_rag_manager import SharedRAGManager, UserRAGSession
 
@@ -17,7 +16,6 @@ __all__ = [
     'DatabaseManager',
     'EnhancedRAGSystem',
     'ConversationHistory',
-    'CommandProcessor',
     'RAGManager',
     'SharedRAGManager',
     'UserRAGSession'
