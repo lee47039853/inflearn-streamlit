@@ -9,6 +9,7 @@ from .enhanced_rag import EnhancedRAGSystem
 from .conversation_history import ConversationHistory
 from .command_processor import CommandProcessor
 from .rag_manager import RAGManager
+from .shared_rag_manager import SharedRAGManager, UserRAGSession
 
 __all__ = [
     'Config',
@@ -17,5 +18,7 @@ __all__ = [
     'EnhancedRAGSystem',
     'ConversationHistory',
     'CommandProcessor',
-    'RAGManager'
+    'RAGManager',
+    'SharedRAGManager',
+    'UserRAGSession'
 ] 

@@ -36,7 +36,7 @@ def main():
         print("⏹️  종료하려면 Ctrl+C를 누르세요.")
         
         subprocess.run([
-            sys.executable, "-m", "streamlit", "run", "chat.py",
+            sys.executable, "-m", "streamlit", "run", "app.py",
             "--server.port", "8501",
             "--server.address", "localhost"
         ])
